@@ -29,11 +29,15 @@
     }
 
 
-.navigation-link {
+.navigation-link, .reset-line {
   text-decoration: none;
  }
 
 .page-container {
  display:flex;
  justify-content: space-between;
+}
+
+.reset-list {
+  list-style-type: none;
 }
