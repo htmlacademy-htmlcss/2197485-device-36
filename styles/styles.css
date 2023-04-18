@@ -41,3 +41,19 @@
 .reset-list {
   list-style-type: none;
 }
+
+.main-footer {
+  background-color: #444444;
+}
+
+.text2 {
+  color:#FFFFFF;
+}
+
+.phone {
+  color: #FFFFFF;
+}
+
+.footer-section {
+  display:grid;
+}
