@@ -3,10 +3,198 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
+    <link href="styles/styles.css" rel="stylesheet">
   </head>
+
   <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
+    <header class="main-header">
+      <nav class="navigation-header">
+        <ul class="header-link reset-list">
+          <li class="catalog-product">
+          <a class="link-catalog reset-line" href="catalog.html">Каталог товаров</a>
+          <a class="main-header-logo" href="index.html">
+         <img class="logo-head" src="images/logo-head.png" width="145" height="36" alt="логотип">
+         </a>
+       </li>
+      </ul>
+       <ul class="site-navigation reset-list">
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Доставка</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Гарантия</a>
+        </li>
+        <li class="navigation-item">
+          <a class="navigation-link" href="#">Доставка</a>
+        </li>
+       </ul>
+
+       <section class="found">
+         <form class="appointment-form" action="http://echo.htmlacademy.ru/" method="post">
+         <label for="find">
+         <input id="find" type="text" placeholder="Поиск по сайту" ></label>
+         <label>
+         <input class="submit" type="submit" value="найти"></label>
+         </form>
+       </section>
+
+      </nav>
+    </header>
+
+   <main class="main-index">
+
+    <section class="product">
+      <h1 class="visually-hidden"> Device </h1>
+      <img class="image-qwadro" src="images/slider-1.png" width="560" height="560" alt="квадрокоптер">
+       <h2 class="into text">Порхает как бабочка,<br>жалит как пчела!</h2>
+        <h3 class="description text">Этот обычный, на первый взгляд, квадрокоптер оснащен <br> мощным лазером, замаскированным под стандартную камеру.
+      </h3>
+      <a class="detailed reset-line" href="#">Подробнее</a>
+      <p class="text">800 м <br>Дальность полета</p>
+      <p class="text">500 м <br>Радиус поражения</p>
+    </section>
+
+    <section class="catalog-item">
+      <h1 class="visually-hidden"> Product </h1>
+      <ul class="page-container reset-list">
+        <li class="virtuality-item">
+         <a class="virtuality-link reset-line" href="#">
+         <img class="images-catalog" src="images/index-catalog-1.png" width="100" height="55" alt="очки">
+         <p>Виртуальная <br> реальность</p>
+         </a>
+       </li>
+      <li class="selfie-item">
+        <a class="selfie-link reset-line" href="#">
+        <img class="images-catalog" src="images/index-catalog-2.png" width="100" height="55" alt="штатив">
+        <p>Моноподы <br> для селфи</p>
+        </a>
+      </li>
+      <li class="action-item">
+        <a class="action-link reset-line" href="#">
+        <img class="images-catalog" src="images/index-catalog-3.png" width="100" height="55" alt="камера">
+        <p>Экшн-камера</p>
+        </a>
+      </li>
+      <li class="fitnes-item">
+        <a class="fitnes-link reset-line" href="#">
+       <img class="images-catalog" src="images/index-catalog-4.png" width="100" height="55" alt="браслет">
+       <p>Фитнес-браслет</p>
+      </a>
+      </li>
+       <li class="watch-item">
+        <a class="watch-link reset-line" href="#">
+        <img class="images-catalog" src="images/index-catalog-5.png" width="100" height="55" alt="часы">
+        <p>Умные часы</p>
+        </a>
+      </li>
+      <li class="qwadro-item">
+        <a class="qwadro-link reset-line" href="#">
+        <img class="images-catalog" src="images/index-catalog-6.png" width="100" height="55" alt="квадракоптер">
+       <p>Квадрокоптеры</p>
+       </a>
+      </li>
+      </ul>
+   </section>
+
+    <section class="services">
+      <ul class="item-services reset-list">
+        <li class="delivery-services">
+        <a href="#">доставка</a>
+        </li>
+        <li class="warranty-services">
+          <a href="#">Гарантия</a>
+        </li>
+        <li class="credit-services">
+          <a href="#">Кредит</a>
+        </li>
+      </ul>
+        <h2 class="delivery">Доставка</h2>
+        <p class="text">Мы с удовольствием доставим ваш товар прямо<br> к вашему подъезду совершенно бесплатно! Ведь <br> мы неплохо заработаем, поднимая его на ваш этаж.</p>
+
+    </section>
+
+    <section class="shipping">
+      <img class="mini-car" src="images/Car.png">
+      <a class="shipping-link reset-line" href="#">Доставим редкий товар под заказ</a>
+    </section>
+
+    <section class="about">
+      <h1>О нас</h1>
+      <p class="text">Огромный выбор гаджетов не оставит равнодушным<br> гика, который есть в каждом из нас.</p>
+      <p claa="text">Мы можем доставить ваш товар в самые отдалённые<br> уголки России транспортными компаниями:</p>
+      <ul class="transfer">
+        <li>Меловые линии</li>
+        <li>СДИК</li>
+        <li>ТоксБерри</li>
+      </ul>
+      <a clss="about-link reset-line" href="#">подробнее о нас</a>
+    </section>
+
+    <section class="subscribe">
+      <h1>Подпишитесь<br>на рассылку </h1>
+      <p class="text">Еженедельный дайджест с обзорами новинок,<br>
+      длительными тест-драйвами, распаковками, а также акции,<br>
+      спецпредложения и вот это вот всё.</p>
+      <form class="appointment-form" action="http://echo.htmlacademy.ru/" method="post">
+        <label for="email">
+        <input id="email" type="text" placeholder="Ваш e-mail" ></label>
+        <label>
+        <input class="submit" type="submit" value="Подписаться"></label>
+        </form>
+        <p>Это бесплатно</p>
+    </section>
+
+   </main>
+
+   <footer class="main-footer">
+   <div class="footer-section">
+    <p class="text2">Санкт-Петербург,<br> реки Карповки, 5, литера П.</p>
+    <img class="logo-footer" src="images/logo-footer.png" width="145" height="36" alt="логотип">
+    <ul class="footer-link reset-list">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Доставка</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Гарантия</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Доставка</a>
+      </li>
+     </ul>
+
+    <address class="contact-adress">
+      <a class="phone reset-line" href="tel:88121212"> +7 (812) 812-12-12 </a>
+     </address>
+
+     <ul class="footer-link reset-list">
+      <li class="footer-item">
+        <a class="button" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">VK</span>
+          <img src="images/tlg.png" width="24" height="14" alt="vk">
+        </a>
+      </li>
+      <li class="footer-item">
+        <a class="button" href=" https://www.youtube.com/user/htmlacademy.ru">
+          <span class="visually-hidden">youtube</span>
+        <img src="images/youtube.png" width="24" height="14" alt="telegram">
+        </a>
+      </li>
+      <li class="footer-item">
+        <a class="button" href="https://twitter.com/htmlacademy.ru">
+          <span class="visually-hidden">twitter</span>
+        <img src="images/twitter.png" width="24" height="14" alt="youtube">
+        </a>
+      </li>
+     </ul>
+
+      <a href="https://www.htmlacademy.ru">
+       <span class="visually-hidden">HTML ACADEMY</span>
+       <img class="footer-contacts-logo reset-line" src="images/academy.svg" alt="logo-html-academy" width="115" height="33">
+       </a>
+     </div>
+
+   </footer>
 
   </body>
 </html>
